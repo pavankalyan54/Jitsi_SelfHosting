@@ -1,7 +1,19 @@
 ### Jitsi Selfhosting in docker
 
 ### requirements for below setup.
+1. docker and docker compose installed in system with latest version
+2. wget , curl
+```bash
+sudo apt update && sudo apt upgrade
+git clone https://github.com/jitsi/docker-jitsi-meet
+cd docker-jitsi-meet
+cp env.example .env
+./gen-passwords.sh
 
+```
+
+### official link for download the file
+[https://jitsi.support/wiki/install-jitsi-meet-docker/](url)
 
 ### Below is the customized docker compose we are running with nginx porxy manager, but we can use any proxy like nginx or caddy etc.
 
