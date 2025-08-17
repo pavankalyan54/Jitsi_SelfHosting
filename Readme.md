@@ -2,7 +2,9 @@
 
 ### requirements for below setup.
 1. docker and docker compose installed in system with latest version
-2. wget , curl
+2. wget , curl, git etc.
+
+
 ```bash
 sudo apt update && sudo apt upgrade
 git clone https://github.com/jitsi/docker-jitsi-meet
@@ -527,5 +529,8 @@ volumes:
     nginx-proxy-manager-letsencrypt:
     mariadb-data:
 ```
+
+### if you want to enable password authentication enable below flags in .env file with and mention your public URL.
+
 
 
