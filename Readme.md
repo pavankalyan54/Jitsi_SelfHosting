@@ -532,5 +532,14 @@ volumes:
 
 ### if you want to enable password authentication enable below flags in .env file with and mention your public URL.
 
+```yaml
+#This should be enable if you want to connect to a public domain, by default these parameters will be commented we need to uncomment these.
+PUBLIC_URL=https://pavankalyan.duckdns.org
+ENABLE_AUTH=1
 
+#if you want to enable the guest mode
+ENABLE_GUESTS=1
+AUTH_TYPE=internal
+
+```
 
